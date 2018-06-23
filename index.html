@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Custom HTML5 Video Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="video_container">
+      <video controls>
+        <source src="http://nettuts.s3.amazonaws.com/763_sammyJSIntro/trailer_test.mp4" type="video/mp4">
+        <source src="http://nettuts.s3.amazonaws.com/763_sammyJSIntro/trailer_test.ogg" type="video/ogg">
+        <!-- LINK TO FLASH FALLBACK PLAYER HERE. COULD BE EMBED OR OBJECT ELEMENT -->
+      </video>
+
+      <div id="videoControls">
+        <button id="play" title="Play"> &#x25BA; </button>
+
+        <div id="progress">
+            <div id="progress_box">
+                <span id="play_progress"></span>
+            </div>
+        </div>
+
+        <button id="fullScreen" title="FullScreen Toggle">  FS </button>
+        <a href="http://www.onemob.com"><img style="width: 3vh" src="https://a3bf67a2345da5d6ee8b-6d37b1ee447a16ff81e1420be19ec8c3.ssl.cf5.rackcdn.com/oneMob/onemobicon600@2x.png" alt="OneMob" id="video_tutsLogo" /></a>
+    </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
